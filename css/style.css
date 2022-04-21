@@ -29,11 +29,39 @@ body {
     color: #ced3d8;
     border-color: #ced3d8;
 }
+
+/* Colors */
 .blue {
     background-color: #45abea;
     color: white;
     border-color: #45abea;
 }
+.purple {
+    background-color: #9c72e4;
+    color: white;
+    border-color: #9c72e4;
+}
+.green {
+    background-color: #64c0a9;
+    color: white;
+    border-color: #64c0a9;
+}
+.orange {
+    background-color: #f29e33;
+    color: white;
+    border-color: #f29e33;
+}
+.fucsia {
+    background-color: #d863a1;
+    color: white;
+    border-color: #d863a1;
+}
+.lime {
+    background-color: #b0c926;
+    color: white;
+    border-color: #b0c926;
+}
+
 
 /* Header */
 header {
@@ -74,13 +102,11 @@ header .title {
     font-weight: 600;
     margin-left: 6px;
 }
-.check {
-    color: #6fc6b2;
+.mark {
     display: inline-block;
     width: 16px;
     height: 16px;
     text-align: center;
-    border: 1px solid #6fc6b2;
     border-radius: 50%;
     font-size: 10px;
     margin-right: 5px;
@@ -90,7 +116,17 @@ header .title {
     border-style: solid;
     border-radius: 10px;
     border-width: 1px;
-
+    font-size: 9px;
     padding: 5px 10px;
+}
+.mark.check{
+    color: #6fc6b2;
+    border: 1px solid #6fc6b2;
     font-size: 10px;
+
+}
+.mark.cross{
+    color: #ea4237;
+    border: 1px solid #ea4237;
+    font-size: 7px;
 }
