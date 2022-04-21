@@ -9,7 +9,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f6f8f9;
-
+    color: #444851;
 }
 .container {
     width: 75%;
@@ -51,6 +51,19 @@ header .title {
 
 /* Main */
 .buttons {
-    border-bottom: 1px solid f6f8f9;
+    border-bottom: 2px solid #f6f8f9;
     padding: 20px 0 10px 40px;
+}
+.list ul {
+    list-style-type: none;
+    padding: 40px 0 10px 40px;
+    font-size: 18px;
+    font-weight: 800;
+
+}
+.list ul li {
+}
+.list ul .arrow {
+    font-size: 27px;
+    vertical-align: sub;
 }
